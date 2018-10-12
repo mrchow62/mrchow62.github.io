@@ -7,3 +7,73 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* stylelint-enable */
 
 /* Begin site styles below */
+html{
+  font-family: "Gill Sans", "Product Sans", sans-serif;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
+  line-height: 1.2222222em; /* 22px / 18px = 1.2222..em */
+  padding-left: 1.2222222em;
+  padding-right: 1.2222222em;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+  text-align: center;
+  padding-top: 0.61111111em;
+  padding-bottom: 0.61111111em;
+}
+h1{
+  font-size: 1.555555556em;
+  color:  #C70039 ;
+}
+p{
+
+}
+h2{
+  font-size:1.11111111em; /* 20px */
+}
+h3{
+  font size: 1.16666667em;
+  text-align:left;
+}
+img{
+  width:100%;
+  height:auto;
+  padding-left:
+  /* Have to figure out way to stop images being ectra large when screen is big */
+}
+.nav a{
+  color: #C70039;
+  font-size: 1.5em;
+  padding: 1.5em;
+  text-align:center;
+  text-decoration:none; /* Underline doesn't go away; not sure whether color changed because i have clicked on link before. */
+}
+a:visited{
+  color:black;
+}
+a:active{
+  color: red;
+}
+ul{
+  padding-top: 0.6111111111em;
+  padding-bottom: 0.6111111111em;
+}
+
+@media screen and (min-width:750px){
+  html{
+    line-height: 1.833333333em; /* 1.5 times previous value */
+    font-size: 1.6875em;
+  }
+  h1{
+    font-size: 1.9999995em;
+  }
+  h2{
+    font-size: 1.66666666em;
+  }
+  footer{
+    height: 50px;
+    margin-top: -50px;
+    padding-top: /* have to figure out way to put space between last paragraph and footer. */
+    /* Over 750 px width (@media), last paragraph runs into footer.
+  }
+
+}
